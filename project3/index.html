@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.5/slick.min.js"></script>
+    
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.5/slick.min.css"/>
+    <link rel="stylesheet" type="text/css" href="./slider.css"/>
+    
+    <link rel="stylesheet" href="./style.css">
+    
+    <title>RENTLET - Home</title>
+</head>
+<body>
+    <header class="header">
+        <navigation class="navigation">
+            <div class="logo">
+                <img class="logo-img" src="./images/icons/Main LOGO.png" alt="RENTLET Rental management">
+
+                <nav class="nav">
+                    <ul>
+                        <li><a href="home">Home</a></li>
+                        <li><a href="rent">Rent</a></li>
+                        <li><a href="services">services</a></li>
+                        <li><a href="about">About</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="user-nav">
+                <div class="user-nav_notification">
+                    <img src="./images/icons/notifications.png" alt="notification" class="user-nav__icon user-nav__icon1 ">
+                    <span class="user-nav__user-text">Notification</span>
+                </div>
+                <div class="user-nav_notification">
+                    <img src="./images/icons/contact.png" alt="Contact us" class="user-nav__icon">
+                    <span class="user-nav__user-text">Contact Us</span>
+                </div>
+                <div class="user-nav_notification">
+                    <img src="./images/icons/post ad.png" alt="Post ad" class="user-nav__icon">
+                    <span class="user-nav__user-text">Post Add</span>
+                </div>                    
+                <div class="user-nav_notification">
+                        <img src="./images/icons/my profile.png" alt="notification" class="user-nav__icon">
+                        <span class="user-nav__user-text">Login/Sign UP</span>
+                </div>
+                <div class="user-nav_notification">
+                    <img src="./images/icons/menu.png" alt="notification" class="user-nav__icon user-nav__icon1">
+                    <span class="user-nav__user-text">MENU</span>
+                </div>
+            </div>
+           
+        </navigation>
+        <div class="filter">
+            <div class="filter-para"><span class="state-name">Kolkata's </span> No.1 Property Rental Services</div>
+            <div class="cards">
+                <div class="card-item">Flats</div>
+                <div class="card-item">Paying Guests</div>
+                <div class="card-item">Flatmates</div>
+                <div class="card-item">House/Villa</div>
+                <div class="card-item">Commercial</div>
+                <div class="card-item">Garage</div>
+                <div class="card-item">Shops</div>
+            </div>
+            <form action="#" class="search">
+
+                <input type="text" placeholder="Enter Area, Locality or Landmark" class="search-input" name="search">
+                <select class="search-type">
+                    <option value="Select Type">Select Type</option>
+                    <option value="saab">Saab</option>
+                    <option value="mercedes">Mercedes</option>
+                    <option value="audi">Audi</option>
+                </select>   
+                <select class="search-bedroom">
+                    <option value="Select Bedroom">Select Bedroom</option>
+                    <option value="1bhk">1 BHK</option>
+                    <option value="2bhk">2 BHK</option>
+                    <option value="3bhk">3 BHK</option>
+                </select>    
+                    <select class="search-budget">
+                            <option value="Select Budget">Select Budget</option>
+                            <option value="50lack">10Lack</option>
+                            <option value="50lack">30Lack</option>
+                            <option value="50lack">50Lack</option>
+                        </select>    
+                <div class="slidecontainer">
+                        <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+                        <p>Value: <span id="demo"></span></p>
+                      </div>
+                <button type="submit" class="search-button"> SEARCH</button>
+                <div class="search-chkbx">
+                    <div class="chkbox-squr">
+                        <input type="checkbox" name="" value="Bike"> Restriction Free
+                    </div>
+                    <div><input type="checkbox" name="vehicle" value="Car" > For Couples</div>
+                    <div><input type="checkbox" name="vehicle" value="Bike"> Meals Service</div>
+                    <div><input type="checkbox" name="vehicle" value="Car"> Good Transport</div>
+                    <div><input type="checkbox" name="vehicle" value="Car" > Near Market</div>
+                </div>
+                
+            </form>
+            <div class="rent-mssg">
+                    Are you an <span>owner</span>? Rent your property for free
+            </div>
+        </div>
+        
+        
+    </header>
+    <section class="img-slider post-your-add">
+            <button class="btn">
+                Post your Ad
+            </button>
+            <div class="container-postad">
+                    <div class="row">
+                    <div class="col-md-12 heroSlider-fixed">
+                        <div class="overlay">
+                    </div>
+                        <!-- Slider -->
+                        <div class="slider responsive post-add-items">
+                            <div>
+                                <div class="post-add-item">
+                                    <img src="images/icons/university icon.png" alt="" class="post-add-items-img"><hr>
+                                    <p class="post-add-items-text">Near<br> Colleges <br>Universities</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="post-add-item restriction-Free">
+                                        <img src="images/icons/restriction free.png" alt="" class="post-add-items-img"><hr>
+                                        <p class="post-add-items-text">Restriction<br> Free</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="post-add-item for-bachelor">
+                                        <img src="images/icons/bachelors.png" alt="" class="post-add-items-img"><hr>
+                                        <p class="post-add-items-text">For <br>Bachelor</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="post-add-item good-transport">
+                                    <img src="images/icons/transport.png" alt="" class="post-add-items-img"><hr>
+                                    <p class="post-add-items-text">Good<br> Transport</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div class=" post-add-item meal-service">
+                                    <img src="images/icons/meal service.png" alt="" class="post-add-items-img"><hr>
+                                    <p class="post-add-items-text">Meal<br> Service</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="post-add-item near-market">
+                                    <img src="images/icons/market.png" alt="" class="post-add-items-img"><hr>
+                                    <p class="post-add-items-text">Near<br> Market</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="post-add-item for-couple">
+                                    <img src="images/icons/couple.png" alt="" class="post-add-items-img"><hr>
+                                    <p class="post-add-items-text">For<br> Couple</p>
+                                </div>
+                    
+                            </div>
+                            <div>
+                                <div class="post-add-item restriction-Free">
+                                        <img src="images/icons/restriction free.png" alt="" class="post-add-items-img"><hr>
+                                        <p class="post-add-items-text">Restriction<br> Free</p>
+                                </div>
+                            </div>
+                        </div>
+                                <!-- control arrows -->
+                        <div class="prev">
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        </div>
+                        <div class="next">
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        </div>
+                                
+                    </div>
+                    </div>
+                </div>
+    </section>
+    <div class="line1"></div>
+    <section class="area row">
+            <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 areaname">NewTown <span class="area-quantity">(125)</span></div>
+            <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 areaname">Tollygunge <span class="area-quantity">(95)</span></div>
+            <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 areaname">Salt Lake City <span class="area-quantity">(36)</span></div>
+            <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 areaname">Jadabpur <span class="area-quantity">(46)</span></div>
+            <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 areaname ">Kestopur <span class="area-quantity">(44)</span></div>
+            <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 areaname">Behala <span class="area-quantity">(21)</span></div>
+            <div class="col-lg-3 col-md-4 col-sm-4 hidden-xs areaname">Rajarhat <span class="area-quantity">(36)</span></div>
+            <div class="col-lg-3 col-md-4 col-sm-4 hidden-xs areaname">Dum Dum <span class="area-quantity">(64)</span></div>
+            <div class="col-lg-3 col-md-4 col-sm-4 hidden-xs areaname">NewTown <span class="area-quantity">(66)</span></div>
+            <div class="col-lg-3 col-md-4 col-sm-4 hidden-xs areaname">NewTown <span class="area-quantity">(66)</span></div>
+            <div class="col-lg-3 col-md-4 col-sm-4 hidden-xs areaname">NewTown <span class="area-quantity">(66)</span></div>
+            <div class="col-lg-3 col-md-4 col-sm-4 hidden-xs areaname">NewTown <span class="area-quantity">(66)</span></div>
+            
+    </section>
+    <button class="area-btn">
+            Show more places
+        </button>
+
+    <section class="our-services">
+            <p class="our-services-p">Our Services</p>
+            <div class="line2"></div>
+            <div class="our-services-card">
+                <div class="services-card-info">
+                    <img src="images/icons/Agreement.png" alt="" class="services-card-info-img">
+                    <p class="services-card-info-text">Make Agreement</p>
+                    <p class="info-subtext">100% Legal</p>
+
+                </div>
+                <div class="services-card-info">
+                        <img src="images/icons/refer earn.png" alt="" class="services-card-info-img">
+                        <p class="services-card-info-text">Refer n' Earn</p>
+                        <p class="info-subtext">up to <span><i class="fas fa-rupee-sign"></i></span> 5000</p>
+                </div>
+                <div class="services-card-info">
+                        <img src="images/icons/Monthly meal.png" alt="" class="services-card-info-img">
+                        <p class="services-card-info-text">Monthly Meals</p>
+                        <p class="info-subtext">Start @ <span><i class="fas fa-rupee-sign"></i></span> 2599/mnth </p>
+                </div>
+                <div class="services-card-info">
+                        <img src="images/icons/packers n movers.png" alt="" class="services-card-info-img">
+                        <p class="services-card-info-text">Packers n' Movers</p>
+                        <p class="info-subtext">Start @ <span><i class="fas fa-rupee-sign"></i></span> 500/mnth</p>
+                </div>
+                <div class="services-card-info rental-bill">
+                    <img src="images/icons/monthly invoice.png" alt="" class="services-card-info-img">
+                    <p class="services-card-info-text">Rental Bill</p>
+                    <p class="info-subtext">monthly Invoice</p>
+                </div>
+            </div>
+
+
+    </section>
+    <section class="featured-properties">
+        <p class="properties">Featured Properties</p>
+        <div class="line3"></div>
+        <div class="container-feature">
+            <div class="row">
+                <div class="col-md-12 heroSlider-fixed">
+                    <div class="overlay">
+                </div>
+                    <!-- Slider -->
+                    <div class="slider Featured">
+                        <div>
+                            <div class="feature-item">
+                                <img  src="./images/feature.JPG" alt="Feature image">
+                            </div>
+                        </div>
+                        <div>
+                            <div class="feature-item">
+                                <img  src="./images/feature.JPG" alt="Feature image">
+                            </div>
+                        </div>
+                        <div>
+                            <div class="feature-item">
+                                <img  src="./images/feature.JPG" alt="Feature image">
+                            </div>
+                        </div>
+                        <div>
+                            <div class="feature-item">
+                                <img  src="./images/feature.JPG" alt="Feature image">
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="feature-item">
+                                <img  src="./images/feature.JPG" alt="Feature image">
+                            </div>
+                        </div>
+                        <div>
+                            <div class="feature-item">
+                                <img  src="./images/feature.JPG" alt="Feature image">
+                            </div>
+                        </div>
+                        <div>
+                            <div class="feature-item">
+                                <img  src="./images/feature.JPG" alt="Feature image">
+                            </div>
+                        </div>
+                        <div>
+                            <div class="feature-item">
+                                <img  src="./images/feature.JPG" alt="Feature image">
+                            </div>
+                        </div>
+                        <div>
+                            <div class="feature-item">
+                                <img  src="./images/feature.JPG" alt="Feature image">
+                            </div>
+                        </div>
+                        <div>
+                            <div class="feature-item">
+                                <img  src="./images/feature.JPG" alt="Feature image">
+                            </div>
+                        </div>
+                        <div>
+                            <div class="feature-item">
+                                <img  src="./images/feature.JPG" alt="Feature image">
+                            </div>
+                        </div>                                                                                            
+                    </div>
+                            <!-- control arrows -->
+                    <div class="prev-feature">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    </div>
+                    <div class="next-feature">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    </div>
+                            
+                </div>
+            </div>
+        </div>            
+
+    </section>
+
+
+    <section class="newly-listed">
+            <p class="properties">Newly Listed</p>
+            <div class="line3"></div>
+            <div class="container-feature">
+                <div class="row">
+                    <div class="col-md-12 heroSlider-fixed">
+                        <div class="overlay">
+                    </div>
+                        <!-- Slider -->
+                        <div class="slider newly">
+                            <div>
+                                <div class="feature-item">
+                                    <img  src="./images/feature.JPG" alt="Feature image">
+                                </div>
+                            </div>
+                            <div>
+                                <div class="feature-item">
+                                    <img  src="./images/feature.JPG" alt="Feature image">
+                                </div>
+                            </div>
+                            <div>
+                                <div class="feature-item">
+                                    <img  src="./images/feature.JPG" alt="Feature image">
+                                </div>
+                            </div>
+                            <div>
+                                <div class="feature-item">
+                                    <img  src="./images/feature.JPG" alt="Feature image">
+                                </div>
+                            </div>
+    
+                            <div>
+                                <div class="feature-item">
+                                    <img  src="./images/feature.JPG" alt="Feature image">
+                                </div>
+                            </div>
+                            <div>
+                                <div class="feature-item">
+                                    <img  src="./images/feature.JPG" alt="Feature image">
+                                </div>
+                            </div>
+                            <div>
+                                <div class="feature-item">
+                                    <img  src="./images/feature.JPG" alt="Feature image">
+                                </div>
+                            </div>
+                            <div>
+                                <div class="feature-item">
+                                    <img  src="./images/feature.JPG" alt="Feature image">
+                                </div>
+                            </div>
+                            <div>
+                                <div class="feature-item">
+                                    <img  src="./images/feature.JPG" alt="Feature image">
+                                </div>
+                            </div>
+                            <div>
+                                <div class="feature-item">
+                                    <img  src="./images/feature.JPG" alt="Feature image">
+                                </div>
+                            </div>
+                            <div>
+                                <div class="feature-item">
+                                    <img  src="./images/feature.JPG" alt="Feature image">
+                                </div>
+                            </div>                                                                                            
+                        </div>
+                                <!-- control arrows -->
+                        <div class="prev-newly">
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        </div>
+                        <div class="next-newly">
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        </div>
+                                
+                    </div>
+                </div>
+            </div>            
+    
+        </section>
+    <!--back-to-top-->
+    <div class="back-to-top">Back To Top <span><i class="fas fa-chevron-circle-up up-arrow"></i></span></div>
+
+    <!-- Footer -->
+
+    <section class="footer">
+        <div class="contact-info">
+            <div class="contact-icon1">
+                <img src="images/icons/phone.png" alt="phone" class="contact-icon">
+                <p class="contact-icon-text">9831141456</p>
+            </div>
+            <div class="contact-icon1">
+                    <img src="images/icons/phone.png" alt="phone" class="contact-icon">
+                <p class="contact-icon-text">support@rentlet.in</p>
+            </div>
+            <div class="contact-icon1">
+                <img src="images/icons/location.png" alt="location" class="contact-icon">
+                <p class="contact-icon-text">Block CE salt Lake,<br>sector v Kolkata<br>pin:700114</p>
+            </div>
+        </div>
+        <div class="line4">
+
+        </div>
+        <div class="more-contact-info">
+            <div class="link">
+                <h3 class="quick-link">Quick Links:</h3>
+                <ul class="links">
+                    <li>RENTS</li>
+                    <li>SERVICES</li>
+                    <li>ABOUT</li>
+                </ul>
+                
+            </div>
+            <div class="about">
+
+                <h3 class="about">About:</h3>
+                <ul>
+                    <li>Terms & Policies</li>
+                    <li>About Rentlet</li>
+                    <li>Listing Policies</li>
+                </ul>
+            </div>
+            <div class="resource">
+                <h3>Resources:</h3>
+                <ul>
+                    <li>Blog</li>
+                    <li>Newsletter</li>
+                    
+                </ul>
+            </div>
+        </div>
+        <div class="subscribe">
+            <h3 class="sub">Subscribe:</h3>
+            <form action="#" class="search-footer">
+                <input type="text" placeholder="Enter your Email" class="search-input" name="search">
+                <img src="./images/icons/right arrow.png" alt="right arrow" class="search-arrow">
+            </form>
+            <p class="sub-alert">Subscribe to get property alert</p>
+        </div>
+        <hr class="hr-line">
+        <div class='demopadding'>
+                <div class='icon social fb'><i class='fab fa-facebook'></i></div>
+                <div class='icon social tw'><i class='fab fa-twitter'></i></div>
+                <div class='icon social in'><i class='fab fa-linkedin'></i></div>
+                <div class='icon social in'><i class='fab fa-pinterest'></i></div>
+
+                <!-- <div class='icon'><img class='icon-social' src="images/icons/pinterest.png"></div> -->
+        </div>  
+        
+        <div class="row footer-row">
+            <div class="col-lg-6 col-md-6 col-sm-6">
+                <div class="footer-heading">
+                    About us
+                </div>
+                <div class="footer-body">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi iusto esse vel deleniti. Voluptatum, aliquam! Rerum omnis natus necessitatibus eos, porro mollitia corporis provident sit, minima molestias, reprehenderit quasi nesciunt.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                </div>
+            </div>
+        
+
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                <div class="footer-heading">
+                    Quick Links
+                </div>
+                <div class="footer-body">
+                    <ul>
+                        <li><a href="#"><i class="fas fa-greater-than"></i>ALERTS AND STUFFS</a></li>
+                        <li><a href="#"><i class="fas fa-greater-than"></i>CUSTOM SHORTCODES</a></li>
+                        <li><a href="#"><i class="fas fa-greater-than"></i>PRICING PLANS</a></li>
+                        <li><a href="#"><i class="fas fa-greater-than"></i>TOGGLE ELEMENTS</a></li>
+                        <li><a href="#"><i class="fas fa-greater-than"></i>TYPOGRAPHY</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3  col-xs-12">
+                <div class="footer-heading">
+                    get in touch
+                </div>
+                <div class="footer-body">
+                    <div class="col-xs-12">
+                        <div class="row">
+                            <div class="col-xs-2 home-icon">
+                                <i class="fas fa-home gettouch-icon"></i>
+                            </div>
+                            <div class="col-xs-10">
+                                66, south Street<br>
+                                Window 6 Wonder land,
+                            </div>
+                        </div>   
+
+                        <div class="icon">
+
+                        </div>
+                        <div class="text"><i class="fas fa-phone"></i>
+                            +440 875369208 - Office<br>
+                            +440 353363114 - FAX
+                        </div>
+                        <div class="icon">
+
+                        </div>
+                        <div class="text"><i class="fas fa-envelope"></i>
+                            freepik@sitename.com
+                        </div>
+        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /Footer -->
+    <script>
+        var slider = document.getElementById("myRange");
+        var output = document.getElementById("demo");
+        output.innerHTML = slider.value;
+        
+        slider.oninput = function() {
+            output.innerHTML = this.value;
+        
+        }
+
+    // $('.slider').slick({
+    //     dots: true,
+    //     infinite: true,
+    //     speed: 300,
+    //     slidesToShow: 1,
+    //     centerMode: true,
+    //     variableWidth: true
+    //     });
+    </script>
+    <form action="/action_page.php" method="get">
+        
+    </form>
+    <script src="./slider.js"></script>
+ 
+</body>
+</html>
