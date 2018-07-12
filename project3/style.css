@@ -82,12 +82,44 @@ p{
     border-bottom: 2px solid rgb(199, 0, 57);
     padding: 0 0px;
 }
+@media screen and (max-width: 1200px) {
+    .navigation{
+        float: left;
+        display: block;
+       
+    }
+    .logo {
+        margin-left: 1rem;
+        margin-top: 1rem;
+    }
+    .logo-img {
+        height: 4rem;
+        float: left!important;
+    }
+
+    .nav {
+        
+        height: 80%;
+        float: left;
+        padding-left: 2rem;
+    }
+    .nav ul li a {
+        font-size: 1.5rem;
+        display: block;
+        text-align: center;
+        padding: 0 5px;
+    }
+    
+   
+}
+
 
 
 
 /* Notification contact us, signup, Post ad */
 .user-nav{
     display: flex;
+
 }
 .user-nav > * {
     padding: 0 2rem;
@@ -105,6 +137,14 @@ p{
     font-size: 1.5rem;
     color: rgb(199, 0, 57);
 }
+@media screen and (max-width: 1200px) {
+    .user-nav{
+    display: flex;
+    justify-content: ;
+}
+    
+}
+
 
 @media screen and (max-width: 600px) {
     .header{
@@ -289,7 +329,7 @@ p{
         padding: .8rem;
 
     }
-    
+
 }
 
 .slider1 {
@@ -561,7 +601,7 @@ text-align: center;
     display:none;
 }
 .line4{
-    display: none;
+    display: none!important;
 }
 .more-contact-info{
     display: none;
@@ -597,7 +637,12 @@ text-align: center;
     }
     .line4{
         display: block;
-        color: #fff;
+        width:60%;
+        border: .6px solid #fff;
+        width: 25%;
+        margin: 0 auto;
+        margin-top: .8rem;
+        margin-bottom: 2rem;
     }
     .more-contact-info{
         display: flex;
@@ -765,6 +810,9 @@ li {
   .demopadding {
       display: none;
   }
+  .social-icon-footer{
+      display: none;
+  }
    
   @media screen and (max-width: 600px) {
     .subscribe{
@@ -774,7 +822,35 @@ li {
         color: #fff;
     
     }
-    .demopadding {
+    .social-icon-footer{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+
+        
+    }
+    .socialicon{
+        display:flex;
+        justify-content: center;
+        
+    }
+    .icon-imgs{
+        margin:1.5rem 1rem 0 0;
+        width:4rem;
+        height: 4rem;
+    }
+    .copyright {
+        color:rgb(179, 179, 179);
+        margin-top:3rem;
+    }
+    .copyright-img{
+        width:1.2rem;
+        height: 1.2rem;
+        /* margin-top:6rem; */
+    
+    }
+}
+    /* .demopadding {
         display: flex;
     }
     i.fab{
@@ -782,9 +858,10 @@ li {
         font-size: 4rem !important;
         height: 5rem;
         border-radius: 50%;
-    }
+    } */
+
     
-}
+
 
 .icon-social{
     height: 4rem;;
