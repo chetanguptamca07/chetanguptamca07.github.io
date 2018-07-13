@@ -8,16 +8,13 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.5/slick.min.js"></script>
-    
-    
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css">
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.5/slick.min.css"/>
     <link rel="stylesheet" type="text/css" href="./slider.css"/>
-    
     <link rel="stylesheet" href="./style.css">
-    
+        
     <title>RENTLET - Home</title>
 </head>
 <body>
@@ -26,12 +23,13 @@
             <div class="logo">
                 <img class="logo-img" src="./images/icons/Main LOGO.png" alt="RENTLET Rental management">
 
-                <nav class="nav">
+                <nav class="nav " >
                     <ul>
                         <li><a href="home">Home</a></li>
                         <li><a href="rent">Rent</a></li>
                         <li><a href="services">services</a></li>
                         <li><a href="about">About</a></li>
+                        <li><a href="javascript:void(0);" class="icon" onclick="myFunction()"></a></li>
                     </ul>
                 </nav>
             </div>
@@ -56,9 +54,13 @@
                     <img src="./images/icons/menu.png" alt="notification" class="user-nav__icon user-nav__icon1">
                     <span class="user-nav__user-text">MENU</span>
                 </div>
+
             </div>
            
         </navigation>
+
+
+
         <div class="filter">
             <div class="filter-para"><span class="state-name">Kolkata's </span> No.1 Property Rental Services</div>
             <div class="cards">
@@ -220,17 +222,17 @@
                 <div class="services-card-info">
                         <img src="images/icons/refer earn.png" alt="" class="services-card-info-img">
                         <p class="services-card-info-text">Refer n' Earn</p>
-                        <p class="info-subtext">up to <span><i class="fas fa-rupee-sign"></i></span> 5000</p>
+                        <p class="info-subtext">up to <span><i class="fas fa-rupee-sign rs-logo"></i></span> 5000</p>
                 </div>
                 <div class="services-card-info">
                         <img src="images/icons/Monthly meal.png" alt="" class="services-card-info-img">
                         <p class="services-card-info-text">Monthly Meals</p>
-                        <p class="info-subtext">Start @ <span><i class="fas fa-rupee-sign"></i></span> 2599/mnth </p>
+                        <p class="info-subtext">Start @ <span><i class="fas fa-rupee-sign rs-logo"></i></span> 2599/mnth </p>
                 </div>
                 <div class="services-card-info">
                         <img src="images/icons/packers n movers.png" alt="" class="services-card-info-img">
                         <p class="services-card-info-text">Packers n' Movers</p>
-                        <p class="info-subtext">Start @ <span><i class="fas fa-rupee-sign"></i></span> 500/mnth</p>
+                        <p class="info-subtext">Start @ <span><i class="fas fa-rupee-sign rs-logo"></i></span> 500/mnth</p>
                 </div>
                 <div class="services-card-info rental-bill">
                     <img src="images/icons/monthly invoice.png" alt="" class="services-card-info-img">
@@ -428,7 +430,7 @@
         </div>
         <div class="more-contact-info">
             <div class="link">
-                <h3 class="quick-link">Quick Links:</h3>
+                <h4 class="quick-link">Quick Links:</h4>
                 <ul class="links">
                     <li>RENTS</li>
                     <li>SERVICES</li>
@@ -438,16 +440,16 @@
             </div>
             <div class="about">
 
-                <h3 class="about">About:</h3>
-                <ul>
+                <h4 class="about">About:</h4>
+                <ul class="links">
                     <li>Terms & Policies</li>
                     <li>About Rentlet</li>
                     <li>Listing Policies</li>
                 </ul>
             </div>
             <div class="resource">
-                <h3>Resources:</h3>
-                <ul>
+                <h4>Resources:</h4>
+                <ul class="links">
                     <li>Blog</li>
                     <li>Newsletter</li>
                     
@@ -455,7 +457,7 @@
             </div>
         </div>
         <div class="subscribe">
-            <h3 class="sub">Subscribe:</h3>
+            <h4 class="sub">Subscribe:</h4>
             <form action="#" class="search-footer">
                 <input type="text" placeholder="Enter your Email" class="search-input" name="search">
                 <img src="./images/icons/right arrow.png" alt="right arrow" class="search-arrow">
@@ -472,21 +474,15 @@
                 <div><img src="images/icons/pinterest.png" alt="" class="icon-imgs"></div>
             </div>
             <div class="copyright">
-               <img src="images/icons/copyright.png" alt="copyright" class="copyright-img"><span class="copyright-img">2018 Rentlet. All Rights Reserved</span>
+               <img src="images/icons/copyright.png" alt="copyright" class="copyright-img"><span class="copyright-img copyright-text">2018 Rentlet. All Rights Reserved</span>
 
             </div>
         </div>
-        <!-- <div class='demopadding'>
-                <div class='icon social fb'><i class='fab fa-facebook'></i></div>
-                <div class='icon social tw'><i class='fab fa-twitter'></i></div>
-                <div class='icon social in'><i class='fab fa-linkedin'></i></div>
-                <div class='icon social in'><i class='fab fa-pinterest'></i></div>
-
-        <!-- <div class='icon'><img class='icon-social' src="images/icons/pinterest.png"></div> -->
+       
         </div>   
         
         <div class="row footer-row">
-            <div class="col-lg-6 col-md-6 col-sm-6">
+            <div class="col-lg-6 col-md-6 col-sm-4  col-xs-12">
                 <div class="footer-heading">
                     About us
                 </div>
@@ -497,7 +493,7 @@
             </div>
         
 
-            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+            <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
                 <div class="footer-heading">
                     Quick Links
                 </div>
@@ -511,36 +507,34 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-3 col-sm-3  col-xs-12">
+            <div class="col-lg-3 col-md-3 col-sm-4  col-xs-12">
                 <div class="footer-heading">
                     get in touch
                 </div>
                 <div class="footer-body">
                     <div class="col-xs-12">
-                        <div class="row">
-                            <div class="col-xs-2 home-icon">
-                                <i class="fas fa-home gettouch-icon"></i>
+                        <div class="get-in-touch-items">
+                            <div>
+                                    <i class="fas fa-home gettouch-icon"></i>
                             </div>
-                            <div class="col-xs-10">
-                                66, south Street<br>
-                                Window 6 Wonder land,
+                            <div>
+                                    66, south Street<br>
+                                    Window 6 Wonder land,
                             </div>
-                        </div>   
-
-                        <div class="icon">
-
                         </div>
-                        <div class="text"><i class="fas fa-phone"></i>
-                            +440 875369208 - Office<br>
-                            +440 353363114 - FAX
+                        <div class="get-in-touch-items">
+                            <div>
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div>+440 875369208 - Office<br>
+                                +440 353363114 - FAX</div>
                         </div>
-                        <div class="icon">
-
+                        <div class="get-in-touch-items">
+                            <div>
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div>freepik@sitename.com</div>
                         </div>
-                        <div class="text"><i class="fas fa-envelope"></i>
-                            freepik@sitename.com
-                        </div>
-        
                     </div>
                 </div>
             </div>
@@ -570,6 +564,7 @@
         
     </form>
     <script src="./slider.js"></script>
+    
  
 </body>
 </html>
