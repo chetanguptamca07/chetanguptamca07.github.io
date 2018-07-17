@@ -48,7 +48,7 @@
                     <span class="user-nav__user-text">Post Add</span>
                 </div>                    
                 <div class="user-nav_notification">
-                        <img src="./images/icons/my profile.png" alt="notification" class="user-nav__icon">
+                        <img src="./images/icons/my profile.png" alt="notification" class="user-nav__icon user-nav__icon1">
                         <span class="user-nav__user-text">Login/Sign UP</span>
                 </div>
                 <div class="user-nav_notification hamberger-menu">
@@ -56,8 +56,21 @@
                     <span class="user-nav__user-text">MENU</span>
                 </div>
             </div>
+            
            
         </navigation>
+        <div class="nav-mobile">
+                <form action="#" class="search">
+                        <input type="text" placeholder="New Town,Kolkata" class="search-input" name="search">
+                        <select class="search-type">
+                            <option value="Select Type">Select Type</option>
+                            <option value="saab">abc</option>
+                            <option value="mercedes">abc</option>
+                            <option value="audi">abc</option>
+                        </select>
+                        <button type="submit" class="search-button"><span><i class="fa fa-search" aria-hidden="true"></i></span> SEARCH</button>
+        </form>
+        </div>
     </header>
     <section class="short">
         <div class="home">
@@ -66,7 +79,7 @@
         </div>
         <div class="dropdowns">
                 
-                        <span >Sort by:</span>
+                        <span >Sort By:</span>
                         <select class="services">
                                 <option value="Relevence">Relevence</option>
                                 <option value="abc">abc</option>
@@ -80,7 +93,7 @@
                                 <option value="abc">abc</option>
                                 <option value="abc">abc</option>
                         </select>
-                        <select class="services">
+                        <select class="services services1 ">
                                 <option value="Bedroom">Bedroom</option>
                                 <option value="abc">abc</option>
                                 <option value="abc">abc</option>
@@ -98,13 +111,13 @@
                                 <option value="abc">abc</option>
                                 <option value="abc">abc</option>
                         </select>
-                        <select class="services">
+                        <select class="services services1">
                                 <option value="aminites">Aminites</option>
                                 <option value="abc">abc</option>
                                 <option value="abc">abc</option>
                                 <option value="abc">abc</option>
                         </select>
-                        <select class="services">
+                        <select class="services services1">
                                 <option value="services">Services</option>
                                 <option value="abc">abc</option>
                                 <option value="abc">abc</option>
@@ -119,15 +132,151 @@
         <div class="row property-row">
             <div class="col-xs-12 col-sm-5 col-md-5">
                 <span class="pull-left views">Showing 221 Properties</span>
-                <span class="pull-right "><button class="views">Grid View</button></span>
+                <span class="pull-right grid-view "><button class="views">Grid View</button></span>
             </div>
             <div class="col-xs-12 col-sm-5 col-md-5"><span class="pull-right "><button class="views hidemap">Hide Map</button></span></div>
-            <!-- <div class="col-xs-12 col-sm-12 col-md-2">C</div> -->
+          
         </div>
 
         <div class="row">
+            <div class="col-xs-12 col-sm-5 col-md-5 map-mobile"> GOOGLE MAPS API</div>
+            <div class="col-xs-12  dropdowns-mobile"> 
+                <div class="dropdown-mobile">
+                    <div class="sort-filter">
+                        <div>
+                            <span >Sort by:</span>
+                            <select class="services">
+                                    <option value="Relevence">Relevence</option>
+                                    <option value="abc">abc</option>
+                                    <option value="abc">abc</option>
+                                    <option value="abc">abc</option>
+                            </select>
+                        </div>
+                            
+                        <div>
+                            <span >Filters:</span>
+                            <select class="services">
+                                    <option value="budget">Budget</option>
+                                    <option value="abc">abc</option>
+                                    <option value="abc">abc</option>
+                                    <option value="abc">abc</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="other-services">
+                        <div>
+                            <select class="services services1 ">
+                                    <option value="Bedroom">Bedroom</option>
+                                    <option value="abc">abc</option>
+                                    <option value="abc">abc</option>
+                                    <option value="abc">abc</option>
+                            </select>
+                        </div>    
+                        <div>
+                            <select class="services services1">
+                                    <option value="bathroom">Bathroom</option>
+                                    <option value="abc">abc</option>
+                                    <option value="abc">abc</option>
+                                    <option value="abc">abc</option>
+                            </select>
+                        </div>
+                        <div>
+                            <select class="services services1">
+                                    <option value="Furnishing">Furnishing</option>
+                                    <option value="abc">abc</option>
+                                    <option value="abc">abc</option>
+                                    <option value="abc">abc</option>
+                            </select>
+                        </div>
+                        <div>
+                            <select class="services services1">
+                                    <option value="aminites">Aminites</option>
+                                    <option value="abc">abc</option>
+                                    <option value="abc">abc</option>
+                                    <option value="abc">abc</option>
+                            </select>
+                        </div>
+                        <div>
+                            <select class="services services1">
+                                    <option value="services">Services</option>
+                                    <option value="abc">abc</option>
+                                    <option value="abc">abc</option>
+                                    <option value="abc">abc</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="buttons">
+                        <button type="submit" class="search-btn btn1"> Apply</button>
+                        <button type="submit" class="search-btn btn2"> Reset</button>
+                    </div>
+                               
+                </div>
+            </div>
             <div class="col-xs-12 col-sm-5 col-md-5 properties">
                 <div class="row">
+                        
+                          
+                     <div class="col-xs-12 prop">
+                        <div class="row prop-img-row">
+                            <div class="col-xs-3 propimg">
+                                <img src="./images/Properties.JPG" alt="Properties">
+                            </div>
+                            <div class="col-xs-9 prop-text">
+                                <div class="pric e">
+                                    <span><i class="fas fa-rupee-sign"></i>4000<br>
+                                    <span><img src="images/icons/bed.png" alt="bedroom" class="accessories"> 3 bedroom 
+                                        <img src="images/icons/bath.png" alt="bath" class="accessories"> 2 bath 362sqft</span><br>
+                                    Action Area, 1 Newtown<br>
+                                    Semi FUrnished<br>Posted on 23 July,2018</span>
+                                    
+                                </div>
+                                <div class="proparea-quickview prop-text">
+                                        <span><p class="quickview">view other charges</p><br>
+                                        <img src="images/icons/view.png" alt="view" class="view-img"><span class="quickview"> Quick View</span><br>
+                                        RLID:225169<br>
+                                        <button class="prop-btn1">View</button>
+                                        <button class="prop-btn2">Contact</button></span>
+                                            
+                                        
+                                </div>
+                                
+                                
+    
+                            </div>
+                        
+                        </div> -->
+                    </div>    
+                      <div class="col-xs-12 prop">
+                        <div class="row prop-img-row">
+                            <div class="col-xs-3 propimg">
+                                <img src="./images/Properties.JPG" alt="Properties">
+                            </div>
+                            <div class="col-xs-9 prop-text">
+                                <div class="price">
+                                    <span><i class="fas fa-rupee-sign"></i>4000<br>
+                                    <span><img src="images/icons/bed.png" alt="bedroom" class="accessories"> 3 bedroom 
+                                        <img src="images/icons/bath.png" alt="bath" class="accessories"> 2 bath 362sqft</span><br>
+                                    Action Area, 1 Newtown<br>
+                                    Semi FUrnished<br>Posted on 23 July,2018</span>
+                                    
+                                </div>
+                                <div class="proparea-quickview prop-text">
+                                        <span><p class="quickview">view other charges</p><br>
+                                        <img src="images/icons/view.png" alt="view" class="view-img"><span class="quickview"> Quick View</span><br>
+                                        RLID:225169<br>
+                                        <button class="prop-btn1">View</button>
+                                        <button class="prop-btn2">Contact</button></span>
+                                            
+                                        
+                                </div>
+                                
+                                
+    
+                            </div>
+                        
+                        </div>
+                    </div>    
+                    
                     <div class="col-xs-12 prop">
                         <div class="row prop-img-row">
                             <div class="col-xs-3 propimg">
@@ -160,6 +309,31 @@
                     <div class="col-xs-12 prop">
                             <div class="row prop-img-row">
                                     <div class="col-xs-3 propimg">
+                                            <img src="./images/Properties.JPG" alt="Properties"><br>Posted on 23 July,2018
+                                    </div>
+                                    <div class="col-xs-9 prop-text-test">
+                                        <div class="price-test1">
+                                                <div ><i class="fas fa-rupee-sign"></i>4000<p>Action Area 1, Newtown</p> </div>
+                                                <div><img src="images/icons/bed.png" alt="bedroom" class="accessories"> 3 bedroom </div>
+                                                <div>RLID:225169</div>
+                                                
+                                        </div>
+                                        <div class="price-test2">
+                                            
+                                            <div>2 BHK</div>
+                                            <div>365Sqft</div>
+                                            
+
+                                        </div>
+                                        <div class="price-test3">
+                                                <p>view other charges</p>
+                                                <div>Semi Furnished</div>
+                                            <div><button class="prop-btn1">View</button>
+                                                <button  class="prop-btn2">Contact</button></div>
+
+                                        </div>
+                                    </div>
+                                    <!-- <div class="col-xs-3 propimg">
                                         <img src="./images/Properties.JPG" alt="Properties">
                                     </div>
                                     <div class="col-xs-9 prop-text">
@@ -183,8 +357,8 @@
                                         
                                         
             
-                                    </div>
-                                </div>
+                                    </div> -->
+                            </div>
                                 
                     </div>
                     <div class="col-xs-12 prop">
@@ -305,7 +479,9 @@
                                 </div>
                     </div>
                 </div>
+             
             </div>
+
             <div class="col-xs-12 col-sm-5 col-md-5 map">MAP</div>
             <div class="col-xs-12 col-sm-2 col-md-2 favourite">
                     <div class="row">

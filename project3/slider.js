@@ -4,8 +4,8 @@ $('.responsive').slick({
 	nextArrow: $('.next'),
   infinite: false,
   speed: 300,
-  slidesToShow: 4,
-  slidesToScroll: 4,
+  slidesToShow: 5,
+  slidesToScroll: 5,
   responsive: [
     {
       breakpoint: 1024,

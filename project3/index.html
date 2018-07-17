@@ -8,6 +8,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.5/slick.min.js"></script>
+    <script src="./index.js"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css">
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
@@ -22,7 +23,8 @@
         <navigation class="navigation">
             <div class="logo">
                 <img class="logo-img" src="./images/icons/Main LOGO.png" alt="RENTLET Rental management">
-
+            </div>
+            <div>
                 <nav class="nav " >
                     <ul>
                         <li><a href="home">Home</a></li>
@@ -63,7 +65,7 @@
 
         <div class="filter">
             <div class="filter-para"><span class="state-name">Kolkata's </span> No.1 Property Rental Services</div>
-            <div class="cards">
+            <!-- <div class="cards">
                 <div class="card-item">Flats</div>
                 <div class="card-item">Paying Guests</div>
                 <div class="card-item">Flatmates</div>
@@ -71,15 +73,15 @@
                 <div class="card-item">Commercial</div>
                 <div class="card-item">Garage</div>
                 <div class="card-item">Shops</div>
-            </div>
+            </div> -->
             <form action="#" class="search">
 
                 <input type="text" placeholder="Enter Area, Locality or Landmark" class="search-input" name="search">
                 <select class="search-type">
                     <option value="Select Type">Select Type</option>
-                    <option value="saab">Saab</option>
-                    <option value="mercedes">Mercedes</option>
-                    <option value="audi">Audi</option>
+                    <option value="abc">abc</option>
+                    <option value="abc">abc</option>
+                    <option value="abc">abc</option>
                 </select>   
                 <select class="search-bedroom">
                     <option value="Select Bedroom">Select Bedroom</option>
@@ -94,18 +96,21 @@
                             <option value="50lack">50Lack</option>
                         </select>    
                 <div class="slidecontainer">
-                        <input type="range" min="1" max="100" value="50" class="slider1" id="myRange">
-                        <p><span id="demo"></span></p>
-                      </div>
-                <button type="submit" class="search-button"> SEARCH</button>
+                    <section class="range-slider">
+                        <span class="rangeValues"></span>
+                        <input value="500" min="500" max="50000" step="500" type="range">
+                        <input value="50000" min="500" max="50000" step="500" type="range">
+                    </section>        
+                </div>
+                <button type="submit" class="search-button"><span><i class="fa fa-search" aria-hidden="true"></i></span> SEARCH</button>
                 <div class="search-chkbx">
                     <div class="chkbox-squr">
-                        <input type="checkbox" name="" value="Bike"> Restriction Free
+                        <input type="checkbox" name="" value="fee"> Restriction Free
                     </div>
-                    <div><input type="checkbox" name="vehicle" value="Car" > For Couples</div>
-                    <div><input type="checkbox" name="vehicle" value="Bike"> Meals Service</div>
-                    <div><input type="checkbox" name="vehicle" value="Car"> Good Transport</div>
-                    <div><input type="checkbox" name="vehicle" value="Car" > Near Market</div>
+                    <div><input type="checkbox" name="hotel-facilities" value="Couple" > For Couples</div>
+                    <div><input type="checkbox" name="hotel-facilities" value="meal"> Meals Service</div>
+                    <div><input type="checkbox" name="hotel-facilities" value="Transport"> Good Transport</div>
+                    <div><input type="checkbox" name="hotel-facilities" value="market" > Near Market</div>
                 </div>
                 
             </form>
@@ -189,7 +194,9 @@
                     </div>
                 </div>
     </section>
+    <div class="popular-area">Popular Area</div>
     <div class="line1"></div>
+  
     <section class="area row">
             <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 areaname">NewTown <span class="area-quantity">(125)</span></div>
             <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 areaname">Tollygunge <span class="area-quantity">(95)</span></div>
