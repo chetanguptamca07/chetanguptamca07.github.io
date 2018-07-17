@@ -231,7 +231,7 @@ f
 }
 .search{
     /* background-color:rgba(219, 215, 214, .8); */
-    background-color: rgb(230, 230, 230);
+    background-color: rgba(230,230,230,.6);
     padding: 1rem;
     border-radius: 5px;
     display: flex;
