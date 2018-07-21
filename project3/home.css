@@ -301,7 +301,7 @@ p{
 }
 .properties{
     height: 500px;
-   z-index: -1;
+   /* z-index: -1; */
     overflow-y: scroll;
     /* padding: 2rem; */
 }
