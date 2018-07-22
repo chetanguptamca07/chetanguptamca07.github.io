@@ -9,6 +9,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css">
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./slider.css"/>
 
     <!-- <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet"> -->
 
@@ -125,6 +126,7 @@
                     <option value="abc">abc</option>
                     <option value="abc">abc</option>
             </select>
+           
             <button type="submit" class="search-btn btn1"> Apply</button>
             <button type="submit" class="search-btn btn2"> Reset</button>                                   
          </div>
@@ -157,9 +159,16 @@
                         </div>
                             
                         <div>
-                                <div data-toggle="collapse" data-target="#collapse" >
-                                       <span>Filter:</span>  <button class="select-btn"> Select <i class="fa fa-caret-down"></i></button> 
-                                </div>
+                            <span  >Filter:</span>
+                            <select class="services">
+                                    <option value="Relevence">Relevence</option>
+                                    <option value="abc">abc</option>
+                                    <option value="abc">abc</option>
+                                    <option value="abc">abc</option>
+                            </select>
+                            <span class="adv-filter" data-toggle="collapse" data-target="#collapse">
+                                    <i class="fas fa-filter" style="font-size: 15px"></i></i>
+                            </span>        
                             <!-- <select class="services">
                                     
                                     <option value="select" class="service-select">Select</option>
@@ -169,6 +178,7 @@
                                     <option value="abc">abc</option>
                             </select> -->
                         </div>
+                        
                     </div>
                     <div class="collapse" id="collapse" >
                         <div>
@@ -219,9 +229,20 @@
                                     <option value="abc">abc</option>
                             </select>
                         </div>
-                        <div class="buttons">
-                                <button type="submit" class="search-btn btn1"> Apply</button>
-                                <button type="submit" class="search-btn btn2"> Reset</button>
+                        <div>
+                            <div class="slidecontainer">
+                                <section class="range-slider">
+                                    <span class="rangeValues"></span>
+                                    <input value="500" min="500" max="50000" step="500" type="range">
+                                    <input value="50000" min="500" max="50000" step="500" type="range">
+                                </section>        
+                            </div>
+                        </div>
+                        <div>
+                            <div class="buttons">
+                                    <button type="submit" class="search-btn btn1"> Apply</button>
+                                    <button type="submit" class="search-btn btn2"> Reset</button>
+                            </div>
                         </div>
                     </div>
                     <!-- <div class="buttons">
