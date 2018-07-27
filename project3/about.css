@@ -528,7 +528,7 @@ button{
 }
 @media (max-width:675px) and (min-width:600px){
     .locality-row {
-        margin-top: 12rem;
+       
         justify-content: center;
     }
       
