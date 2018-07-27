@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="153px" height="103px" viewBox="0 0 153 103" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>arrow-right-left-down</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="186.428787%" y1="0%" x2="0%" y2="60.3676546%" id="linearGradient-1">
+            <stop stop-color="#CDEBFF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#8886FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="-External-Pages" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Solutions_T" transform="translate(-316.000000, -2079.000000)">
+            <g id="Group-14" transform="translate(1.000000, 730.000000)">
+                <g id="Group-15" transform="translate(0.000000, 873.000000)">
+                    <g id="arrow-right-left-down" transform="translate(312.000000, 477.000000)">
+                        <path d="M155.013453,0.444088912 L124.781857,42.6692733 C111.000768,61.917646 90.8379105,75.6527747 67.880732,81.4308559 L4.47093002,97.3904383" id="Path-46" stroke="url(#linearGradient-1)" stroke-width="2" stroke-dasharray="5,5,5,5"></path>
+                        <polygon id="Path-5-Copy-4" fill="#8886FF" transform="translate(8.500000, 95.857143) rotate(-198.000000) translate(-8.500000, -95.857143) " points="3 88 3 103.714286 14 95.8571429"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

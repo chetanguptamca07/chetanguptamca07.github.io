@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="254px" height="82px" viewBox="0 0 254 82" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>arrow-left-right-bottom</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="186.428787%" y1="0%" x2="0%" y2="60.3676546%" id="linearGradient-1">
+            <stop stop-color="#CDEBFF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#8886FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="-External-Pages" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Solutions" transform="translate(-904.000000, -1238.000000)">
+            <g id="Group-43" transform="translate(0.000000, 862.000000)">
+                <g id="arrow-left-right-bottom" transform="translate(1031.500000, 416.500000) rotate(-180.000000) translate(-1031.500000, -416.500000) translate(905.000000, 376.000000)">
+                    <path d="M252.687626,45.5762592 C214.441247,-17.3141682 6,-22.4740644 6,77" id="Path-32" stroke="url(#linearGradient-1)" stroke-width="2" stroke-dasharray="5,5,5,5"></path>
+                    <polygon id="Path-5-Copy-2" fill="#8886FF" transform="translate(6.000000, 76.500000) rotate(-270.000000) translate(-6.000000, -76.500000) " points="1.5 70.5 1.5 82.5 10.5 76.5"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

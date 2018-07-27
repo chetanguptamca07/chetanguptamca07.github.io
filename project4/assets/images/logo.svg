@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="54px" height="41px" viewBox="0 0 54 41" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="-External-Pages" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Login" transform="translate(-98.000000, -20.000000)" fill="#00355F">
+            <g id="Header">
+                <g id="Group" transform="translate(98.000000, 20.000000)">
+                    <path d="M22.3493,40.8231725 C16.2943,40.8231725 0.055,40.8231725 0,40.8231725 C0,40.8231725 25.3223,4.26317251 25.3773,4.20317251 C27.5793,1.11317251 32.9193,-1.59682749 38.4783,1.11317251 C38.9743,1.33317251 51.1373,8.34317251 53.7783,9.78317251 L39.8543,9.78317251 C39.5793,8.95317251 38.8093,8.40317251 37.9273,8.40317251 C36.7723,8.40317251 35.8363,9.34317251 35.8363,10.5031725 C35.8363,11.6031725 36.7723,12.5531725 37.9273,12.5531725 C38.8093,12.5531725 39.5793,11.9931725 39.8543,11.2131725 L53.8883,11.2131725 L42.7733,17.4631725 C44.1453,27.5731725 37.4873,40.8231725 22.3493,40.8231725 Z" id="logo"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
