@@ -477,6 +477,7 @@ button{
     }
     .btn {
         width: 45%!important;
+        
     }
     .locality-items{
         height: 8rem!important ;
@@ -526,13 +527,7 @@ button{
     flex-wrap: wrap;
     
 }
-@media (max-width:675px) and (min-width:600px){
-    .locality-row {
-       
-        justify-content: center;
-    }
-      
-}
+
 @media (max-width:599px) and (min-width:490px){
     .locality-row {
         margin-top:8rem;
@@ -662,6 +657,11 @@ button{
     left: 50%;
     transform: translate(-50%, -50%);    
  }
+ .threesixty-text{
+     font-size: 1.4rem;
+     padding-top: .5rem;
+     text-align: center;
+ }
  @media screen and (max-width: 680px){
     .amenities-img{
         height:2rem;
@@ -676,6 +676,10 @@ button{
         padding: .5rem;
         text-align: center;
         width: 9rem;
+    }
+    .threesixty-text{
+        font-size: 1.1rem;
+    }
  }
  @media screen and (max-width: 400px){
     .aminities {
