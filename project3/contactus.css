@@ -1,0 +1,440 @@
+*,
+*::after,
+*::before{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+  	-moz-box-sizing: border-box;
+
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+html{
+	font-size: 62.5%;  /*1rem=10px, 10/16=62.5%*/
+	box-sizing: inherit;
+	-webkit-box-sizing:inherit ;
+  	-moz-box-sizing: inherit;
+
+}
+
+p{
+    margin: 0;
+    padding: 0; 
+}
+h4{
+    font-size: 16px!important;
+}
+
+.navigation{
+    background: #aaa;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.logo {
+
+    margin-left: 2rem;
+    margin-top: 2rem;
+    display: block;
+}
+.logo-img{
+    height: 4rem;
+    /* float: left; */
+    align-self: flex-start;
+    padding-bottom: 1rem;
+}
+/* Navigation */
+.nav {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    float: right;
+    /* padding-left: 5rem; */
+}
+
+.nav .home{
+    width: 100%;
+    border-bottom: 2px solid rgb(199, 0, 57);
+    padding: 0 16px;
+}
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.nav ul li {
+    float: left;
+}
+
+.nav ul li a {
+    font-size: 1.2rem;
+    display: block;
+    text-align: center;
+    padding: 0 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-bottom: 3px solid transparent;
+    color: rgb(102, 102, 102);
+    font-weight: 600;
+}
+
+.nav ul li a:hover {
+    width: 100%;
+    border-bottom: 2px solid rgb(199, 0, 57);
+    padding: 0 16px;
+}
+@media screen and (max-width: 1200px) {
+    .logo {
+        margin-left: 1rem;
+        margin-top: 1rem;
+    }
+    .logo-img {
+        height: 3rem;
+        float: left!important;
+    }
+}
+
+@media screen  and (max-width:950px) {
+    .nav ul li a {
+        font-size: 1.3rem;
+    }
+}
+
+/* Notification contact us, signup, Post ad */
+.user-nav{
+    display: flex;
+
+}
+.user-nav > * {
+    padding: 0 1rem;
+    cursor: pointer;
+    height:100%;
+    display:flex;
+    align-items: center;
+}
+.user-nav__icon{
+    height: 2rem;
+    width: 2rem;
+    margin-right:1rem;
+  }
+.user-nav__user-text{
+    font-size: 1.2rem;
+    color: rgb(199, 0, 57);
+}
+
+@media screen and (max-width: 900px) {
+    
+    
+    .user-nav__user-text{
+        display:none;
+    }
+    
+    .user-nav__icon{
+        display: none;
+    }
+    .user-nav__icon1{
+        display: flex;
+        width: 2rem;
+        height: 2rem;
+    }
+    
+    .user-nav > * {
+            padding: 0 .4rem;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    
+    .nav {
+        display:none;
+    }
+    .user-nav__user-text{
+        display:none;
+    }
+    
+    .user-nav__icon{
+        display: none;
+    }
+    .user-nav__icon1{
+        display: flex;
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+    
+    .user-nav > * {
+            padding: 0 .4rem;
+    }
+}
+
+
+/* 
+    contact us
+ */
+
+ .hero {
+    background-image: url(./images/contactus.png);
+    background-size: cover;
+    height: 100vh;
+    z-index: 2000;
+    width: 100%;
+    text-align: center;
+    background-position: top;
+}
+ .hero-heading {
+     font-size: 4rem;
+     padding: 5rem 0rem  0rem 0rem;
+     color: #fff;
+ }
+ .hero-box{
+    position: relative;
+     width: 100%;
+     top: 5%;
+ }
+ .phone-icon{
+    font-size: 3rem;
+    padding-right: 1.2rem;
+}
+
+.facebook-icon{
+    text-align: center;
+    padding-top:2rem;
+}
+.facebook-img{
+    height: 5rem;
+    padding: 0 2rem;
+}
+
+ .hero-send-message-box {
+     top: 50%;
+     left: 3rem;;
+     transform: translateY(-50%);
+     position: absolute;
+     display: inline-block;
+     width: 30%;
+     height: 300px;
+     background: rgba(170  , 170, 170, 0.9);
+ }
+
+
+/* input[type=checkbox]{
+    margin:1rem 1rem;
+} */
+
+
+ .hero-support-box {
+     display: inline-block;
+     width: 60%;
+     height: 400px;
+     background-color: rgba(170,170, 170, .2);
+ }
+ .hero-text{
+    position: absolute;
+    left: 40%;
+    top: 40%;
+    transform: translateY(-50%);
+    font-size: 2.5rem;
+    text-align: left;
+    color: #fff;
+ }
+ .hero-text-icon {
+     padding-right: 2rem;
+ }
+ .hero-text div {
+     margin-top: 2rem;
+ }
+ 
+form{
+    padding: 2rem 0;
+}
+.phone-no{
+    width: 80%;
+    padding: .6rem;
+    font-size: 1.4rem;
+}
+textarea{
+    margin: 1rem 0;
+    height: 200px;
+    width: 80%;
+    padding-top: 1rem;
+    font-size: 1.4rem;
+}
+.checkbox-span{
+    padding: 2rem;
+    color:#fff;
+    font-size: 1.5rem;
+}
+.checkbox{
+    display:inline-block!important;
+  
+}
+.btn{
+    background: rgb(100, 55, 68);
+    padding: .8rem;
+    width:80%;
+    margin: .6rem 0;
+    color: #fff;
+    font-size:1.8rem;
+    
+  
+}
+.btn:hover{
+    color:#fff;
+}
+ @media screen and (max-width: 1200px) {
+    .hero-text {
+        font-size: 2rem;
+    }
+    .facebook-img {
+        width: 250px;
+    }
+ }
+ @media screen and (max-width: 1100px) {
+   
+    .checkbox-span{
+        padding: 1.6rem;
+    }
+ }
+ @media screen and (max-width: 999px) {
+   
+    .checkbox-span{
+        padding: 1rem;
+    }
+ }
+ @media screen and (max-width: 900px){
+    .checkbox-span{
+        padding: .3rem;
+    }
+ }
+ @media screen and (max-width: 600px) {
+  
+    .hero-heading {
+        font-size: 3rem;
+        padding: 1.5rem;
+    }
+    
+    
+    .hero-send-message-box {
+        width: 70%;
+        top: 0rem;
+        left: 50%;
+        transform: translate(-50%, 0);
+        z-index: 1;
+        height: 280px;
+
+    }
+
+    .checkbox-span{
+        padding: 1.2rem;
+        color:#fff;
+        font-size: 1.4rem;
+    }
+    .btn{
+        padding: .7rem;
+        width:80%;
+        margin: .5rem 0;
+       font-size: 1.5rem;
+    }
+    .hero-support-box {
+        width: 90%;
+        height: 42rem;
+        position: absolute;
+        top:57px;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 0;
+        
+    }
+    .hero-text{
+        width: 80%;
+        position: absolute;
+        top: 60%;
+        bottom: 0;
+        left: 55%;
+        transform: translate(-50%, 0);
+        font-size: 1.8rem;
+        text-align: left;
+        margin: 0 auto;
+    }
+    .hero-text div {
+        margin-top: 1rem;
+    }
+    .facebook-icon{
+        text-align: center;
+        padding-top:1rem;
+    }
+   
+    .facebook-img {
+        /* width: 200px; */
+        height: 4.5rem;
+        padding: 0 0rem;
+    }
+    .phone-icon{
+        font-size: 1rem;
+        padding-right: 1.2rem;
+    }
+    form{
+        padding-top: 1rem;
+    }
+    .phone-no{
+        width: 80%;
+        padding: .2rem;
+        font-size: 1.3rem;
+    }
+    
+    /* .checkbox-span{
+        padding: .8rem;
+    } */
+    
+    
+    /* input[type=checkbox]{
+        margin:1rem 1rem;
+    } */
+    
+    textarea{
+        margin: 1rem 0;
+        height: 100px;
+        width: 80%;
+        padding-top: .8rem;
+        font-size: 1.3rem;
+    }
+  
+   
+  
+   
+}
+
+@media screen and (max-width: 330px) {
+    .checkbox-span{
+        padding: .2rem;
+    }
+    .hero-text{
+        left: 55%;
+        font-size: 1.4rem;
+    }
+    .hero-send-message-box {
+        height: 250px;
+    }
+    .hero-support-box {
+        width: 90%;
+        height: 35rem;
+        position: absolute;
+        top:50px;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 0;
+        
+    }
+    .facebook-img {
+        width: 200px;
+    }
+    .hero-text{
+        top:54%;
+    }
+} 

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login/Register</title>
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="login1.css">
+</head>
+<script>
+    function togglePasswordText() {
+        var value = document.getElementById("password-toggle").innerHTML;
+        if (value==="SHOW") {
+            document.getElementById("password-toggle").innerHTML = "HIDE";
+            document.getElementById("password").setAttribute('type','text');
+        } else {
+            document.getElementById("password-toggle").innerHTML = "SHOW";
+            document.getElementById("password").setAttribute('type','password');
+        }
+    }
+</script>
+<body>
+    <div class="login">
+        <div class="row">
+            <div class="col-xs-12">
+                <ul class="nav nav-pills nav-justified">
+                        <li class="active"><a data-toggle="pill" href="#signin">LOGIN</a></li>
+                        <li><a data-toggle="pill" href="#signup">SIGNUP</a></li>
+                    </ul>
+                    
+                    <div class="tab-content">
+                        <!-- login -->
+                        <div id="signin" class="tab-pane fade in active">
+                            <p class="login-entry"><span>Enter your email and password <strong>to sign in</strong></span></p>
+                            <div class="row">
+                                <div class="col-xs-12 login-entry">
+                                    <strong>EMAIL*</strong>
+                                    
+                                    <div class="input-group input-group-sm ">
+                                        <input class="login-textbox" type="email" class="form-control" placeholder="Email">
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 login-entry">
+                                    <strong>PASSWORD*</strong> 
+                                    <div class="input-group input-group-sm input-group-sm1">
+                                        <input id="password" class="login-textbox"  type="password" class="form-control" placeholder="Password">
+                                        <span id="password-toggle" onclick="togglePasswordText()">SHOW</span>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 login-entry">
+                                    <select>
+                                        <option value="volvo">Agent</option>
+                                        <option value="saab">Owner</option>
+                                        <option value="opel">Tenant</option>
+                                        <!-- <option value="audi">Audi</option> -->
+                                    </select>
+                                </div>
+    
+                            </div>
+                            <div class="row login-entry">
+                                <div class="col-xs-6">
+                                    <a href="#" class="forgot-password">Forgot your password? Click here</a>
+                                </div>
+                                <div class="col-xs-6">
+                                    <button class="btn btn-success">Log In</button>                        
+                                </div>
+                            </div>
+                        </div>
+                        <!-- register -->
+                        <div id="signup" class="tab-pane fade">
+                            <p class="login-entry"><span>Enter your personal details <strong>to create an acount</strong></span></p>
+                            <div class="row">
+                                <div class="col-xs-12 login-entry">
+                                    <strong>EMAIL*</strong>
+                                    
+                                    <div class="input-group input-group-sm ">
+                                        <input class="login-textbox" type="email" class="form-control" placeholder="Email">
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 login-entry confirm-password">
+                                    <strong>PASSWORD*</strong> 
+                                    <div class="input-group input-group-sm">
+                                        <input id="confirm-password" class="login-textbox"  type="password" class="form-control" placeholder="Password">
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 login-entry confirm-password">
+                                    <strong>REPEAT PASSWORD *</strong> 
+                                    <div class="input-group input-group-sm">
+                                        <input id="confirm-password" class="login-textbox"  type="password" class="form-control" placeholder="Repeat Password">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row login-entry">
+                                <div class="col-xs-6 create-account">By creating an account you agree to our 
+
+                                    <a href="#" class="forgot-password">Terms & Privacy</a>
+                                </div>
+                                <div class="col-xs-6">
+                                    <button class="btn btn-success">Create Account</button>                        
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-12">            
+                                <div class="social">
+                                    <div class="social-icon-containner">
+                                        <a href="#" class="connect facebook">
+                                        <div class="connect__icon">
+                                            <i class="fa fa-facebook"></i>
+                                        </div>
+                                        <div class="connect__context">
+                                            <span>Sign in with <strong>Facebook</strong></span>
+                                        </div>
+                                        </a>
+                                        <a href="#" class="connect googleplus">
+                                        <div class="connect__icon">
+                                            <i class="fa fa-google-plus"></i>
+                                        </div>
+                                        <div class="connect__context">
+                                            <span>Sign in with <strong>Google+</strong></span>
+                                        </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        
+    </div>              
+
+</body>
+</html>
