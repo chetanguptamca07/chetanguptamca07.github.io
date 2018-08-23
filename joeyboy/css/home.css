@@ -71,12 +71,24 @@ body {
     width: 100%;
     z-index: 9999;
 }
+.u-left-right-padd-zero{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+@media screen and (max-width:768px) {
+    .u-left-right-padd-zero{
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+    
+}
+.logo-box {
+    position: fixed;
+    z-index: 9999;
+    line-height: 8rem;    
+}
 
-/* .logo-box {
-    margin-top: 2rem;
-} */
-
-.logo {
+.logo-img {
     height: 6rem;
     width: auto;
 }
@@ -95,7 +107,7 @@ body {
 .navigation__list {
     /* list-style: none; */
     text-align: center;
-    width: 60rem;
+    width: 64rem;
     display: flex;
     align-content: flex-end;
     justify-content: space-between;
@@ -110,7 +122,7 @@ body {
 .navigation__link:link,
 .navigation__link:visited {
     display: inline;
-    font-weight: 700;
+    font-weight: 400;
     padding: .5rem .5rem;
     color: rgb(211, 149, 40) !important;
     /* text-decoration: none; */
@@ -131,9 +143,10 @@ body {
     position: absolute;
     display: inline-block;
     background-color: rgb(43, 37, 109);
-    width: 60rem;
+    width: 65rem;
     height: 32px;
     z-index: 2000;
+    margin: 0 auto;
 }
 
 .navigation-menu-sub::before {
@@ -150,7 +163,7 @@ body {
     content: url('../img/webFback.jpg');
     display: inline-block;
     position: absolute;
-    right: -19px;
+    right: -15px;
     top: 0;
     width: 20px;
     height: 40px;
@@ -180,16 +193,22 @@ body {
     margin: 2px;
     padding-right: 1.5rem;
 }
-.search-icon {
-    line-height: 1;
-    position: absolute;
-    top: 0px;
-    right: 2px;
-    background-color: rgb(206, 154, 52);
-    font-size: 1rem;
-    padding: 4px 10px;
-    color: #fff;
+.search-box input {
+    height: 16px;
 }
+.search-icon {
+    line-height: 1.4;
+    position: absolute;
+    top: -1px;
+    right:0px;
+    background-image: linear-gradient(to bottom, rgba(254, 111, 6, .6), rgba(254, 111, 6, .8));
+    /* background-color: rgb(153, 120, 55); */
+    font-size: 1rem;
+    padding: 2px 10px;
+    color: #fff;
+
+}
+
 .navbar-default {
     display: none !important;
     background-color: #fff;
@@ -201,7 +220,13 @@ body {
     background-color: #fff !important;
     height: 3px !important;
 }
+@media screen and (max-width: 1000px) {
+    .navigation-menu-sub,
+    .navigation {
+        display: none;
+    }
 
+}
 @media screen and (max-width: 959px) {
     .navbar {
         display: block !important;
@@ -211,10 +236,6 @@ body {
         float: right !important;
     }
     .header {
-        display: none;
-    }
-    .navigation-menu-sub,
-    .navigation {
         display: none;
     }
     .navigation__link_nav,
@@ -596,6 +617,7 @@ main {
     position: absolute;
     bottom: 1.2rem;
     left: 3rem;
+    color: #fff;
 }
 .college-activities img {
     width: 100%;
@@ -771,14 +793,23 @@ main {
     width: 100%;
     background-color: rgb(20, 45, 86);
 }
+.footer-head-row{
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
 .footer-college-logo {
     display: flex;
     justify-content: flex-start;
 }
 .footer-logo-box {
     padding: 6rem 0;
-    text-align: center;
+    text-align: left;
     width: 100%;
+}
+
+.footer-logo {
+    height: 6rem;
+
 }
 .University-address {
     padding: 4rem;
@@ -811,7 +842,11 @@ main {
         display: block;
         padding: .5rem 1rem;
     }
-}
+    .footer-logo-box {
+        text-align: center;
+
+    }
+    }
 .footer-nav {
     padding: .8rem;
 }
@@ -853,6 +888,7 @@ main {
 }
 .Copyright {
     color: #fff;
+    font-size: 1rem;
 }
 .social-icons {
     display: flex;
@@ -966,12 +1002,14 @@ main {
         padding:1rem;
        
     }
-    
+    .search-box input {
+        height: 19px;
+    }
     .search-icon {
-        line-height: 1.95;
+        line-height: 1.1;
         position: absolute;
-        top: -4px;
-        right: 5px;
+        top: -1px;
+        right:0px;
         background-image: linear-gradient(to bottom, rgba(254, 111, 6, .6), rgba(254, 111, 6, .8));
         /* background-color: rgb(153, 120, 55); */
         font-size: 1rem;
