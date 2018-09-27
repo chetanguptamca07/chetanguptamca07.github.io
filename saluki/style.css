@@ -433,7 +433,7 @@ ul {
     width: auto;
     height: 400px;
     background-repeat: repeat, repeat;
-    background-image: url("./img/blend.png"), url("./img/DLD_8544.jpg");
+    background-image: url("./img/DLD_8544.jpg");
     background-position: top;
     background-size: cover;
     background-blend-mode: lighten;
