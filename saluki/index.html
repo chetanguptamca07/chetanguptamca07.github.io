@@ -13,17 +13,20 @@
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" type="text/css" href="animate.css" />
+    <script src="viewportchecker.js"></script>
     <title>Saluki</title>
+
 </head>
 
 <body>
     <!--nav bar-->
     <div class="header">
         <div class="logo-left">
-            <img src="./img/logo.png" alt="logo" class="nav-logo" >
+            <img src="./img/logo.png" alt="logo" class="nav-logo">
         </div>
         <div class="header-social-icon">
-            <ul >
+            <ul>
                 <li><img src="./img/ae.png" alt="Flag" class="flag-img"></li>
                 <li><img src="./img/arabic-text.png" class="arabic-img" alt=""></li>
                 <li><i class="fa fa-facebook-f nav-social-icon"></i></li>
@@ -32,7 +35,7 @@
             </ul>
         </div>
         <div class="navigation">
-            <nav class="navbar">
+            <nav class="navbar navbar-fixed">
                 <div class="container-fluid">
                     <div class="navbar-header">
                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -76,15 +79,13 @@
         </div>
     </div>
     <!--banner-->
-    <div class="container-fluid">
+    <div class="container-fluid main">
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
-
-
-            <!-- Wrapper for slides -->
+            
             <div class="banner carousel-inner">
                 <div class="item active">
-                        <img src="./img/banner.jpg" alt="Chicago" style="width:100%;">
-                        <div class="banner-text-box">
+                    <img src="./img/banner.jpg" alt="Chicago" style="width:100%;">
+                    <div class="banner-text-box">
                         <span class="main-heading">Arabian <br />Saluki center</span>
                         <span class="sub-heading">We got all the trained <br>professionals for hire here.</span>
                     </div>
@@ -107,7 +108,6 @@
                 </div>
             </div>
 
-            <!-- Left and right controls -->
             <a class="left carousel-control" href="#myCarousel" data-slide="prev">
                 <span class="glyphicon glyphicon-chevron-left"></span>
                 <span class="sr-only">Previous</span>
@@ -117,13 +117,6 @@
                 <span class="sr-only">Next</span>
             </a>
         </div>
-        <!-- <div class="banner">
-            <img src="./img/banner.jpg" alt="Arabian saluki center">
-            <div class="banner-text-box">
-                <span class="main-heading">Arabian <br />Saluki center</span>
-                <span class="sub-heading">We got all the trained <br>professionals for hire here.</span>
-            </div>
-        </div> -->
         <!--welcome-->
         <div class="welcome">
             <div class="sub-heading">
@@ -184,8 +177,7 @@
             </div>
         </div>
         <!--Gallery-->
-        <section id="profiles" class="page">
-
+        <section id="profiles" class="page post">
             <div class="container">
 
                 <div class="content ">
@@ -347,65 +339,65 @@
             <p>Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut <br> aliquip ex ea commodo</p>
         </div>
         <!--Testimonial section-->
-        <div class="testimonial">
+
+        <div class="testimonial post ">
             <div class="dog left-dog">
                 <img src="./img/Doberman-Pinscher.png" alt="">
             </div>
             <div class="testimonial-container">
-                    <br>
-                    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                      <!-- Indicators -->
-                      <ol class="carousel-indicators">
+                <br>
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
                         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
                         <li data-target="#myCarousel" data-slide-to="1"></li>
                         <li data-target="#myCarousel" data-slide-to="2"></li>
                         <li data-target="#myCarousel" data-slide-to="3"></li>
-                      </ol>
-                  
-                      <!-- Wrapper for slides -->
-                      <div class="testimonial-carousel carousel-inner" role="listbox">
-                  
+                    </ol>
+
+                    <div class="testimonial-carousel carousel-inner" role="listbox">
+
                         <div class="item active">
-                          <div class="carousel-caption">
-                            <h3>Lorem ipsum dolor sit amet consectetur</h3>
-                            <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
-                          </div>
+                            <div class="carousel-caption">
+                                <h3>Lorem ipsum dolor sit amet consectetur</h3>
+                                <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
+                            </div>
                         </div>
-                  
+
                         <div class="item">
-                          <div class="carousel-caption">
-                            <h3> adipisicing elit. Deleniti rerum magnam </h3>
-                            <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
-                          </div>
+                            <div class="carousel-caption">
+                                <h3> adipisicing elit. Deleniti rerum magnam </h3>
+                                <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
+                            </div>
                         </div>
-                      
+
                         <div class="item">
-                          <div class="carousel-caption">
-                            <h3>voluptatem enim maxime nesciunt vero alias non veritatis itaque nobis </h3>
-                            <p>Beautiful flowers in Kolymbari, Crete.</p>
-                          </div>
+                            <div class="carousel-caption">
+                                <h3>voluptatem enim maxime nesciunt vero alias non veritatis itaque nobis </h3>
+                                <p>Beautiful flowers in Kolymbari, Crete.</p>
+                            </div>
                         </div>
-                  
+
                         <div class="item">
-                          <div class="carousel-caption">
-                            <h3>cupiditate laboriosam nisi minima molestias officia, perspiciatis libero optio?</h3>
-                            <p>Beautiful flowers in Kolymbari, Crete.</p>
-                          </div>
+                            <div class="carousel-caption">
+                                <h3>cupiditate laboriosam nisi minima molestias officia, perspiciatis libero optio?</h3>
+                                <p>Beautiful flowers in Kolymbari, Crete.</p>
+                            </div>
                         </div>
-                    
-                      </div>
-                  
-                     
+
                     </div>
-                  </div>
-                  
-                  
+
+
+                </div>
+            </div>
+
+
             <div class="dog right-dog">
                 <img src="./img/isolated-2253180_1920.png" alt="">
             </div>
         </div>
         <!--footer-->
-        <div class="footer">
+
+        <div class="footer post">
             <div class="container-fluid footer-container">
                 <div class="row footer-row">
                     <div class="col-xs-12 col-sm-4 ">
@@ -456,7 +448,6 @@
 
 
         </div>
-
     </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -490,8 +481,6 @@
         function pauseVid() {
             vid.pause();
         }
-        /*testimonial slider*/
-       
     </script>
 </body>
 
