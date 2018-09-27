@@ -13,8 +13,7 @@
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" type="text/css" href="animate.css" />
-    <script src="viewportchecker.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Saluki</title>
 
 </head>
@@ -67,20 +66,20 @@
                             </li> -->
                             <!--new dropdown-->
                             <li class="dropdown">
-                                    <div class="btn  dropdown-toggle"  data-toggle="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                                            <i class="fa fa-paw" aria-hidden="true"></i>Saluki dogs
+                                    <div class="button  dropdown-toggle"  data-toggle="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                            <i class="fa fa-paw footprint" aria-hidden="true"></i>Saluki dogs
                                             </a>
                                     <span class="caret"></span></div>
                                     <ul class="dropdown-menu">
-                                      <li><a tabindex="-1" href="#">Custom Menu</a></li>
-                                      <li><a tabindex="-1" href="#">Custom Menu</a></li>
+                                      <li><a tabindex="-1" href="#">1st level dropdown</a></li>
+                                      <li><a tabindex="-1" href="#">1st level dropdown</a></li>
                                       <li class="dropdown-submenu">
-                                        <a class="test" tabindex="-1" href="#">New dropdown <span class="caret"></span></a>
+                                        <a class="test" tabindex="-1" href="#">New dropdown</span></a>
                                         <ul class="dropdown-menu">
                                           <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
                                           <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
                                           <li class="dropdown-submenu">
-                                            <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+                                            <a class="test" href="#">Another dropdown</a>
                                             <ul class="dropdown-menu">
                                               <li><a href="#">3rd level dropdown</a></li>
                                               <li><a href="#">3rd level dropdown</a></li>
@@ -105,7 +104,7 @@
         </div>
     </div>
     <!--banner-->
-    <div class="container-fluid main">
+    <div class="container-fluid main " >
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
             
             <div class="banner carousel-inner">
@@ -144,7 +143,7 @@
             </a>
         </div>
         <!--welcome-->
-        <div class="welcome">
+        <div class="welcome" data-aos="fade-in" data-aos-delay="250">
             <div class="sub-heading">
                 Welcome to
             </div>
@@ -159,7 +158,7 @@
             </p>
         </div>
         <!--hero-->
-        <div class="hero">
+        <div class="hero " data-aos="fade-in" data-aos-delay="250">
             <div class="row">
                 <div class="col-md-6">
                     <div class="hero-text-box">
@@ -188,7 +187,7 @@
             </div>
         </div>
         <!--our services-->
-        <div class="our-services">
+        <div class="our-services" data-aos="fade-in" data-aos-delay="250">
             <div class="our-services-text-box text-center">
                 <div class="main-heading">
                     Want a pet <br>for your loved ones?
@@ -203,7 +202,7 @@
             </div>
         </div>
         <!--Gallery-->
-        <section id="profiles" class="page post">
+        <section id="profiles" class="page" data-aos="fade-in">
             <div class="container">
 
                 <div class="content ">
@@ -366,7 +365,7 @@
         </div>
         <!--Testimonial section-->
 
-        <div class="testimonial post ">
+        <div class="testimonial" data-aos="fade-in">
             <div class="dog left-dog">
                 <img src="./img/Doberman-Pinscher.png" alt="">
             </div>
@@ -423,7 +422,7 @@
         </div>
         <!--footer-->
 
-        <div class="footer post">
+        <div class="footer" data-aos="fade-in">
             <div class="container-fluid footer-container">
                 <div class="row footer-row">
                     <div class="col-xs-12 col-sm-4 ">
@@ -516,6 +515,20 @@
         e.preventDefault();
         });
         });
+        
+
+        
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+      document.addEventListener('aos:in', ({ detail }) => {
+  console.log('animated in', detail);
+});
+
+document.addEventListener('aos:out', ({ detail }) => {
+  console.log('animated out', detail);
+});
     </script>
 </body>
 
