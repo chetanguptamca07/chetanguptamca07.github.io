@@ -48,7 +48,7 @@
                         <ul class="nav navbar-nav">
                             <li class="active"><a href="#"><i class="fa fa-paw" aria-hidden="true"></i>Arabian Saluki
                                     center</a></li>
-                            <li class="dropdown">
+                            <!-- <li class="dropdown">
                                 <a class="dropdown-toggle" data-toggle="dropdown" href="#">
                                     <i class="fa fa-paw" aria-hidden="true"></i>Saluki dogs
                                     <span class="caret"></span></a>
@@ -64,7 +64,33 @@
                                         </ul>
                                     </li>
                                 </ul>
-                            </li>
+                            </li> -->
+                            <!--new dropdown-->
+                            <li class="dropdown">
+                                    <div class="btn  dropdown-toggle"  data-toggle="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                            <i class="fa fa-paw" aria-hidden="true"></i>Saluki dogs
+                                            </a>
+                                    <span class="caret"></span></div>
+                                    <ul class="dropdown-menu">
+                                      <li><a tabindex="-1" href="#">Custom Menu</a></li>
+                                      <li><a tabindex="-1" href="#">Custom Menu</a></li>
+                                      <li class="dropdown-submenu">
+                                        <a class="test" tabindex="-1" href="#">New dropdown <span class="caret"></span></a>
+                                        <ul class="dropdown-menu">
+                                          <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                                          <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                                          <li class="dropdown-submenu">
+                                            <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                              <li><a href="#">3rd level dropdown</a></li>
+                                              <li><a href="#">3rd level dropdown</a></li>
+                                            </ul>
+                                          </li>
+                                        </ul>
+                                      </li>
+                                    </ul>
+                                  </li>
+                                  <!--dropdown end-->
                             <li><a href="#"><i class="fa fa-paw" aria-hidden="true"></i>Services</a></li>
                             <li><a href="#"><i class="fa fa-paw" aria-hidden="true"></i>Media center</a></li>
                             <li><a href="#"><i class="fa fa-paw" aria-hidden="true"></i>Contact</a></li>
@@ -481,6 +507,15 @@
         function pauseVid() {
             vid.pause();
         }
+
+        /*dropdown*/
+        $(document).ready(function(){
+        $('.dropdown-submenu a.test').on("click", function(e){
+        $(this).next('ul').toggle();
+        e.stopPropagation();
+        e.preventDefault();
+        });
+        });
     </script>
 </body>
 
