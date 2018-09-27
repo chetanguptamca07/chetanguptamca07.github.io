@@ -393,6 +393,9 @@ body {
     margin-top: -1px;
 
 }
+.caret {
+    cursor: pointer;
+}
 .footprint{
     padding-right: 5px;
 }
