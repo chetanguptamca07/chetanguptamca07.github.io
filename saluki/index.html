@@ -14,99 +14,123 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon.ico">
     <title>Saluki</title>
 
 </head>
 
-<body>
-    <!--nav bar-->
-    <div class="header">
-        <div class="logo-left">
-            <img src="./img/logo.png" alt="logo" class="nav-logo">
-        </div>
-        <div class="header-social-icon">
-            <ul>
-                <li><img src="./img/ae.png" alt="Flag" class="flag-img"></li>
-                <li><img src="./img/arabic-text.png" class="arabic-img" alt=""></li>
-                <li><i class="fa fa-facebook-f nav-social-icon"></i></li>
-                <li><i class="fa fa-twitter nav-social-icon" aria-hidden="true"></i></li>
-                <li><i class="fa fa-google-plus nav-social-icon" aria-hidden="true"></i></li>
-            </ul>
-        </div>
-        <div class="navigation">
-            <nav class="navbar navbar-fixed">
-                <div class="container-fluid">
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                    </div>
-                    <div class="collapse navbar-collapse" id="myNavbar">
-                        <ul class="nav navbar-nav">
-                            <li class="active"><a href="#"><i class="fa fa-paw" aria-hidden="true"></i>Arabian Saluki
-                                    center</a></li>
-                            <!-- <li class="dropdown">
-                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                                    <i class="fa fa-paw" aria-hidden="true"></i>Saluki dogs
-                                    <span class="caret"></span></a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="#">Page 1-1</a></li>
-                                    <li><a href="#">Page 1-2</a></li>
-                                    <li><a href="#">Page 1-3</a></li>
-                                    <li class="dropdown-submenu">
-                                        <a href="#">More..</a>
-                                        <ul class="dropdown-menu">
-                                            <li><a href="#">3rd level</a></li>
-                                            <li><a href="#">3rd level</a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </li> -->
-                            <!--new dropdown-->
-                            <li class="dropdown">
-                                    <div class="button  dropdown-toggle"  data-toggle="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                                            <i class="fa fa-paw footprint" aria-hidden="true"></i>Saluki dogs
-                                            </a>
-                                    <span class="caret"></span></div>
-                                    <ul class="dropdown-menu">
-                                      <li><a tabindex="-1" href="#">1st level dropdown</a></li>
-                                      <li><a tabindex="-1" href="#">1st level dropdown</a></li>
-                                      <li class="dropdown-submenu">
-                                        <a class="test" tabindex="-1" href="#">New dropdown</span></a>
-                                        <ul class="dropdown-menu">
-                                          <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
-                                          <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
-                                          <li class="dropdown-submenu">
-                                            <a class="test" href="#">Another dropdown</a>
-                                            <ul class="dropdown-menu">
-                                              <li><a href="#">3rd level dropdown</a></li>
-                                              <li><a href="#">3rd level dropdown</a></li>
-                                            </ul>
-                                          </li>
-                                        </ul>
-                                      </li>
-                                    </ul>
-                                  </li>
-                                  <!--dropdown end-->
-                            <li><a href="#"><i class="fa fa-paw" aria-hidden="true"></i>Services</a></li>
-                            <li><a href="#"><i class="fa fa-paw" aria-hidden="true"></i>Media center</a></li>
-                            <li><a href="#"><i class="fa fa-paw" aria-hidden="true"></i>Contact</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-        </div>
+<body data-spy="scroll" data-target=".sticky" data-offset="50">
+    <div class="header container-fluid">
+        <div class="row no-sticky u-margin-remove">
+            <div class="col-md-7">
 
-        <div class="logo-right">
-            <img src="./img/logo_text.png" alt="">
+            </div>
+            <div class="col-md-3 hidden-xs hidden-sm">
+                    <div class="">
+                            <div class="header-social-icon pull-right">
+                                <ul>
+                                    <li><img src="./img/ae.png" alt="Flag" class="flag-img"></li>
+                                    <li><img src="./img/arabic-text.png" class="arabic-img" alt=""></li>
+                                    <li><i class="fa fa-facebook-f nav-social-icon"></i></li>
+                                    <li><i class="fa fa-twitter nav-social-icon" aria-hidden="true"></i></li>
+                                    <li><i class="fa fa-google-plus nav-social-icon" aria-hidden="true"></i></li>
+                                </ul>
+                            </div>
+            
+                        </div>
+            </div>
+            
+        </div>
+        <div class="row sticky u-margin-remove"   data-spy="affix" data-offset-top="100">
+            <div class="col-md-2">
+                <div class="logo pull-left">
+                    <img src="./img/logo.png" alt="logo" class="nav-logo">
+                </div>
+            </div>
+            <div class="col-sm-9 col-md-7 nav-menu">
+                <div class="row u-margin-remove">
+                        <div class="navigation">
+                                <nav class="navbar navbar-fixed">
+                                    <div class="container-fluid">
+                                        <div class="navbar-header">
+                                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                                                <span class="icon-bar"></span>
+                                                <span class="icon-bar"></span>
+                                                <span class="icon-bar"></span>
+                                            </button>
+                                        </div>
+                                        <div class="collapse navbar-collapse" id="myNavbar">
+                                            <ul class="nav navbar-nav">
+                                                <li class="active"><a href="#"><i class="fa fa-paw" aria-hidden="true"></i>Arabian
+                                                        Saluki
+                                                        center</a></li>
+                                                <!-- <li class="dropdown">
+                                                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                                                <i class="fa fa-paw" aria-hidden="true"></i>Saluki dogs
+                                                                <span class="caret"></span></a>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a href="#">Page 1-1</a></li>
+                                                                <li><a href="#">Page 1-2</a></li>
+                                                                <li><a href="#">Page 1-3</a></li>
+                                                                <li class="dropdown-submenu">
+                                                                    <a href="#">More..</a>
+                                                                    <ul class="dropdown-menu">
+                                                                        <li><a href="#">3rd level</a></li>
+                                                                        <li><a href="#">3rd level</a></li>
+                                                                    </ul>
+                                                                </li>
+                                                            </ul>
+                                                        </li> -->
+                                                <!--new dropdown-->
+                                                <li class="dropdown">
+                                                    <div class="button  dropdown-toggle" data-toggle="dropdown"><a class="dropdown-toggle"
+                                                            data-toggle="dropdown" href="#">
+                                                            <i class="fa fa-paw footprint" aria-hidden="true"></i>Saluki dogs
+                                                        </a>
+                                                        <span class="caret"></span></div>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a tabindex="-1" href="#">1st level dropdown</a></li>
+                                                        <li><a tabindex="-1" href="#">1st level dropdown</a></li>
+                                                        <li class="dropdown-submenu">
+                                                            <a class="test" tabindex="-1" href="#">New dropdown</span></a>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                                                                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                                                                <li class="dropdown-submenu">
+                                                                    <a class="test" href="#">Another dropdown</a>
+                                                                    <ul class="dropdown-menu">
+                                                                        <li><a href="#">3rd level dropdown</a></li>
+                                                                        <li><a href="#">3rd level dropdown</a></li>
+                                                                    </ul>
+                                                                </li>
+                                                            </ul>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <!--dropdown end-->
+                                                <li><a href="#"><i class="fa fa-paw" aria-hidden="true"></i>Services</a></li>
+                                                <li><a href="#"><i class="fa fa-paw" aria-hidden="true"></i>Media center</a></li>
+                                                <li><a href="#"><i class="fa fa-paw" aria-hidden="true"></i>Contact</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </nav>
+                            </div>
+            
+                </div>
+            </div>
+            <div class="col-md-3 hidden-xs hidden-sm logo-emrates">
+                <div class="logo-right pull-left">
+                    <img src="./img/logo_text.png" alt="">
+                </div>
+            </div>
         </div>
     </div>
+
     <!--banner-->
-    <div class="container-fluid main " >
+    <div class="container-fluid main ">
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
-            
+
             <div class="banner carousel-inner">
                 <div class="item active">
                     <img src="./img/banner.jpg" alt="Chicago" style="width:100%;">
@@ -143,7 +167,7 @@
             </a>
         </div>
         <!--welcome-->
-        <div class="welcome" data-aos="fade-in" data-aos-delay="250">
+        <div class="welcome" data-aos="fade-up" data-aos-duration="1000">
             <div class="sub-heading">
                 Welcome to
             </div>
@@ -158,7 +182,7 @@
             </p>
         </div>
         <!--hero-->
-        <div class="hero " data-aos="fade-in" data-aos-delay="250">
+        <div class="hero " data-aos="fade-up" data-aos-duration="1000">
             <div class="row">
                 <div class="col-md-6">
                     <div class="hero-text-box">
@@ -187,7 +211,7 @@
             </div>
         </div>
         <!--our services-->
-        <div class="our-services" data-aos="fade-in" data-aos-delay="250">
+        <div class="our-services" data-aos="fade-up" data-aos-duration="1000">
             <div class="our-services-text-box text-center">
                 <div class="main-heading">
                     Want a pet <br>for your loved ones?
@@ -202,7 +226,7 @@
             </div>
         </div>
         <!--Gallery-->
-        <section id="profiles" class="page" data-aos="fade-in">
+        <section id="profiles" class="page" data-aos="fade-up" data-aos-duration="1000">
             <div class="container">
 
                 <div class="content ">
@@ -275,33 +299,33 @@
                     <!--video popup-->
                     <div class="row">
                         <div class="col-sm-3 col-xs-12 video-box">
-                            <div class="img-box" data-toggle="modal" data-target="#homeVideo" onclick="playVid()">
+                            <div class="img-box">
                                 <img src="./img/IMG_1547.jpg" class="img-responsive image-popup" />
-                                <div class="play-btn">
+                                <div class="play-btn" data-toggle="modal" data-target="#homeVideo" onclick="playVid()">
                                     <img src="./img/playbtn.png" alt="play">
                                 </div>
                             </div>
                         </div>
                         <div class="col-sm-3 col-xs-12 video-box">
-                            <div class="img-box" data-toggle="modal" data-target="#homeVideo" onclick="playVid()">
+                            <div class="img-box" >
                                 <img src="./img/IMG_1547.jpg" class="img-responsive image-popup" />
-                                <div class="play-btn">
+                                <div class="play-btn" data-toggle="modal" data-target="#homeVideo" onclick="playVid()">
                                     <img src="./img/playbtn.png" alt="play">
                                 </div>
                             </div>
                         </div>
                         <div class="col-sm-3 col-xs-12 video-box">
-                            <div class="img-box" data-toggle="modal" data-target="#homeVideo" onclick="playVid()">
+                            <div class="img-box" >
                                 <img src="./img/IMG_1547.jpg" class="img-responsive image-popup" />
-                                <div class="play-btn">
+                                <div class="play-btn" data-toggle="modal" data-target="#homeVideo" onclick="playVid()">
                                     <img src="./img/playbtn.png" alt="play">
                                 </div>
                             </div>
                         </div>
                         <div class="col-sm-3 col-xs-12 video-box">
-                            <div class="img-box" data-toggle="modal" data-target="#homeVideo" onclick="playVid()">
+                            <div class="img-box" >
                                 <img src="./img/IMG_1547.jpg" class="img-responsive image-popup" />
-                                <div class="play-btn">
+                                <div class="play-btn" data-toggle="modal" data-target="#homeVideo" onclick="playVid()">
                                     <img src="./img/playbtn.png" alt="play">
                                 </div>
                             </div>
@@ -350,22 +374,19 @@
                     </div>
                     <div class="modal-body">
                     </div>
-                    <div class="modal-footer">
-                        <button class="btn btn-default" data-dismiss="modal">Close</button>
-                    </div>
                 </div>
 
             </div>
         </div>
 
         <!--upcomming events-->
-        <div class="upcomming-events">
+        <div class="upcomming-events" data-aos="fade-up" data-aos-duration="3000">
             <h1 class="main-heading">Upcomming Event</h1>
             <p>Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut <br> aliquip ex ea commodo</p>
         </div>
         <!--Testimonial section-->
 
-        <div class="testimonial" data-aos="fade-in">
+        <div class="testimonial" data-aos="fade-up" data-aos-duration="1000">
             <div class="dog left-dog">
                 <img src="./img/Doberman-Pinscher.png" alt="">
             </div>
@@ -422,7 +443,7 @@
         </div>
         <!--footer-->
 
-        <div class="footer" data-aos="fade-in">
+        <div class="footer" data-aos="fade-up" data-aos-duration="1000">
             <div class="container-fluid footer-container">
                 <div class="row footer-row">
                     <div class="col-xs-12 col-sm-4 ">
@@ -508,27 +529,34 @@
         }
 
         /*dropdown*/
-        $(document).ready(function(){
-        $('.dropdown-submenu a.test').on("click", function(e){
-        $(this).next('ul').toggle();
-        e.stopPropagation();
-        e.preventDefault();
+        $(document).ready(function () {
+            $('.dropdown-submenu a.test').on("hover", function (e) {
+                $(this).next('ul').toggle();
+                e.stopPropagation();
+                e.preventDefault();
+            });
         });
-        });
-        
-
-        
     </script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-      AOS.init();
-      document.addEventListener('aos:in', ({ detail }) => {
-  console.log('animated in', detail);
-});
+        AOS.init();
+        document.addEventListener('aos:in', ({
+            detail
+        }) => {
+            // console.log('animated in', detail);
+        });
 
-document.addEventListener('aos:out', ({ detail }) => {
-  console.log('animated out', detail);
-});
+        document.addEventListener('aos:out', ({
+            detail
+        }) => {
+            // console.log('animated out', detail);
+        });
+        var $videoSrc; 
+        $('#homeVideo').on('hide.bs.modal', function (e) {
+            $("#gossVideo").attr('src',$videoSrc);  
+            
+        }) 
+    
     </script>
 </body>
 
